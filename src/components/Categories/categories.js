@@ -2,12 +2,11 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import Typography from '@mui/material/Typography';
 import * as React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import data from "../products.json";
-import Category from "./category";
-import Video from "../video";
-import {Avatar} from "@mui/material";
 import Seller from "../seller";
+import Video from "../video";
+import Category from "./category";
 
 export default function Categories({type, categoryId}) {
     let {videoThumbnails, categoryFileNames} = data;

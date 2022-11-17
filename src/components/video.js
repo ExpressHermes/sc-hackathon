@@ -4,12 +4,10 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import IconButton from '@mui/material/IconButton';
-import { useTheme } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 import * as React from 'react';
 
 export default function Video({fileName, name}) {
-    const theme = useTheme();
 
     return (
         <Card sx={{ display: 'flex' }}>
