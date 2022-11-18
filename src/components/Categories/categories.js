@@ -71,7 +71,7 @@ export default function Categories({type, categoryId}) {
 
             {(type !== "CATEGORY") && (<div>
                 <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
-                    Nearby Creators
+                    Nearby Sellers
                 </Typography>
             </div>)}
 
